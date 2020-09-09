@@ -115,7 +115,7 @@
     }
 
     if ($flag == -1 && $count == 4) {
-        $mysqli_db = new mysqli('localhost', 'lkm', 'Lkm@4535', 'login');
+        $mysqli_db = new mysqli('localhost', 'lkm', 'Mohan@1234', 'login');
         if ($mysqli_db->connect_error) {
             die("Connection failed: " . $mysqli_db->connect_error);
         }
